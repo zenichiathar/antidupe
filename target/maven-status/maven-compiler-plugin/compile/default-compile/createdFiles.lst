@@ -1,0 +1,16 @@
+net\antidupe\detect\PistonDupeListener.class
+net\antidupe\util\DupeHandler.class
+net\antidupe\detect\ScanService$DupeStack.class
+net\antidupe\ec\EcListener.class
+net\antidupe\cmd\EnderSeeCommand.class
+net\antidupe\ec\EnderChestStorage$PlayerEnderChest.class
+net\antidupe\config\PluginConfig.class
+net\antidupe\cmd\EcCommand.class
+net\antidupe\ec\EnderChestStorage.class
+net\antidupe\cmd\AntiDupeCommand.class
+net\antidupe\config\PluginConfig$PunishMode.class
+net\antidupe\detect\TimingDupeListener.class
+net\antidupe\util\DupeType.class
+net\antidupe\detect\ScanService.class
+net\antidupe\detect\ContainerDupeListener.class
+net\antidupe\AntiDupe.class

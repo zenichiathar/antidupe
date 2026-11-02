@@ -1,0 +1,39 @@
+name: AntiDupe
+version: 1.0.0
+main: net.antidupe.AntiDupe
+api-version: "1.20"
+load: POSTWORLD
+authors: [AntiDupe]
+description: Smart anti-dupe for economy servers. Blocks real dupes, ignores /shop, /orders, /ah.
+
+commands:
+  antidupe:
+    description: AntiDupe admin controls
+    usage: "/antidupe [reload|scan|debug]"
+    permission: antidupe.admin
+    permission-message: "You don't have permission to use this command."
+  ec:
+    description: Open your multi-page Ender Chest
+    usage: "/ec [page|next|prev|last]"
+    permission: antidupe.ec
+    aliases: [enderchest, echest, endercraft]
+  endersee:
+    description: View another player's Ender Chest
+    usage: "/endersee <player> [page]"
+    permission: antidupe.endersee
+    permission-message: "You don't have permission to use this command."
+    aliases: [seeec, ecsee, enderchestsee]
+
+permissions:
+  antidupe.admin:
+    description: Access to /antidupe commands
+    default: op
+  antidupe.notify:
+    description: Receives dupe alerts
+    default: op
+  antidupe.ec:
+    description: Use /ec multi-page Ender Chest
+    default: true
+  antidupe.endersee:
+    description: View other players' Ender Chests
+    default: op

@@ -1,0 +1,94 @@
+falling-blocks:
+  allow:
+    - SAND
+    - RED_SAND
+    - GRAVEL
+    - WHITE_CONCRETE_POWDER
+    - ORANGE_CONCRETE_POWDER
+    - MAGENTA_CONCRETE_POWDER
+    - LIGHT_BLUE_CONCRETE_POWDER
+    - YELLOW_CONCRETE_POWDER
+    - LIME_CONCRETE_POWDER
+    - PINK_CONCRETE_POWDER
+    - GRAY_CONCRETE_POWDER
+    - LIGHT_GRAY_CONCRETE_POWDER
+    - CYAN_CONCRETE_POWDER
+    - PURPLE_CONCRETE_POWDER
+    - BLUE_CONCRETE_POWDER
+    - BROWN_CONCRETE_POWDER
+    - GREEN_CONCRETE_POWDER
+    - RED_CONCRETE_POWDER
+    - BLACK_CONCRETE_POWDER
+piston-protected:
+  - SPAWNER
+  - DRAGON_EGG
+  - BEACON
+  - ENDER_CHEST
+  - WHITE_SHULKER_BOX
+  - ORANGE_SHULKER_BOX
+  - MAGENTA_SHULKER_BOX
+  - LIGHT_BLUE_SHULKER_BOX
+  - YELLOW_SHULKER_BOX
+  - LIME_SHULKER_BOX
+  - PINK_SHULKER_BOX
+  - GRAY_SHULKER_BOX
+  - LIGHT_GRAY_SHULKER_BOX
+  - CYAN_SHULKER_BOX
+  - PURPLE_SHULKER_BOX
+  - BLUE_SHULKER_BOX
+  - BROWN_SHULKER_BOX
+  - GREEN_SHULKER_BOX
+  - RED_SHULKER_BOX
+  - BLACK_SHULKER_BOX
+ender-chest:
+  enabled: true
+  menu-title-hints:
+    - "ender chest"
+    - "enderchest"
+    - "end chest"
+economy:
+  ignored-titles:
+    - "shop"
+    - "orders"
+    - "auction"
+    - "market"
+    - "bazaar"
+unstackables:
+  enabled: true
+  max-stack:
+    SPAWNER: 64
+    DRAGON_EGG: 1
+ec-storage:
+  pages: 3
+  size: 54
+  title: "Ender Chest ({page}/{max})"
+  nav-bar: true
+scan:
+  clamp-on-join: true
+  auto-scan: false
+  auto-scan-interval-seconds: 60
+  clamp: true
+timing:
+  enabled: true
+  drop-pickup:
+    roundtrip-ms: 200
+    loop-trigger: 4
+    window-ms: 2000
+  click-spam:
+    enabled: true
+    per-second: 30
+  book-edit:
+    enabled: true
+    paste-cooldown-ms: 1000
+    page-create-cooldown-ms: 2000
+  action: flag
+  flag-cooldown-ms: 5000
+punish:
+  mode: none
+  ban-days: 1
+notify:
+  staff: true
+logging:
+  file: true
+  discord-webhook: ""
+debug: false

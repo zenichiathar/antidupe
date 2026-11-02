@@ -1,0 +1,13 @@
+E:\projects\AntiDupe\src\main\java\net\antidupe\AntiDupe.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\cmd\AntiDupeCommand.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\cmd\EcCommand.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\cmd\EnderSeeCommand.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\config\PluginConfig.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\detect\ContainerDupeListener.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\detect\PistonDupeListener.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\detect\ScanService.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\detect\TimingDupeListener.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\ec\EcListener.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\ec\EnderChestStorage.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\util\DupeHandler.java
+E:\projects\AntiDupe\src\main\java\net\antidupe\util\DupeType.java
